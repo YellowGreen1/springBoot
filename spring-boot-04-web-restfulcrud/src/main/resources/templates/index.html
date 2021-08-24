@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+ 
+    <script src="./jquery-3.2.1.min.js" type="text/javascript"></script>
+    <!--<script type="text/javascript">
+        $("#ok").click(function () {
+            alert(1);
+        });
+    </script>-->
+</head>
+<body>
+<form action="/user/upload/zip" method="post" enctype="multipart/form-data">
+ <ul>
+ 	  上传压缩包:<input type="file" name="zipFile"/>
+ </ul>
+ <ul>
+ 	解压路径:<input type="text" name="destPath"/>
+ </ul>
+ <ul>
+ 	  解压密码(为空可不传):<input type="text" name="password"/></br>
+ </ul>
+ <ul>
+ 	  <input type="submit" value="执行操作"/>
+ </ul>
+  
+   
+</form>
+</body>
+ 
+</html>

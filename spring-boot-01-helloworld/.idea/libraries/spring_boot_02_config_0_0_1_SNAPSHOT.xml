@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spring-boot-02-config-0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../spring-boot-02-config/target/spring-boot-02-config-0.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
